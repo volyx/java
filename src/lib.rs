@@ -366,7 +366,7 @@ impl Extension for Java {
         completion: Completion,
     ) -> Option<CodeLabel> {
         // uncomment when debugging completions
-        // println!("Java completion: {completion:#?}");
+        println!("Java completion: {completion:#?}");
 
         completion.kind.and_then(|kind| match kind {
             CompletionKind::Field | CompletionKind::Constant => {

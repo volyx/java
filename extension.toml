@@ -6,9 +6,10 @@ authors = [
     "Valentine Briese <valentinegb@icloud.com>",
     "Samuser107 L.Longheval <samuser107@gmail.com>",
     "Yury Abykhodau <abehodau@gmail.com>",
+    "Dmitrii <volyx@duck.com>"
 ]
 description = "Java support."
-repository = "https://github.com/zed-extensions/java"
+repository = "https://github.com/volyx/java"
 
 [grammars.java]
 repository = "https://github.com/tree-sitter/tree-sitter-java"
